@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  tweetscore: MyString
+  hashtagscore: MyString
+  totalscore: MyString
+
+two:
+  tweetscore: MyString
+  hashtagscore: MyString
+  totalscore: MyString

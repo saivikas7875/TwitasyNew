@@ -1,0 +1,9 @@
+<h1 style="text-align: center; font-family: helvetica;">New team</h1>
+
+<p style="color: black; text-align: center; font-family: helvetica; font-weight: bold; font-size: 16px;">
+  Team owner: <%= User.find(session[:user_id]).username %>
+</p>
+
+<%= render 'form' %>
+
+<%= link_to 'Back', teams_path %>

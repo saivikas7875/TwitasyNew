@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Tweetscore:</b>
+  <%= @score.tweetscore %>
+</p>
+
+<p>
+  <b>Hashtagscore:</b>
+  <%= @score.hashtagscore %>
+</p>
+
+<p>
+  <b>Totalscore:</b>
+  <%= @score.totalscore %>
+</p>
+
+
+<%= link_to 'Edit', edit_score_path(@score) %> |
+<%= link_to 'Back', scores_path %>
